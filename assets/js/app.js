@@ -21,7 +21,7 @@
 			},
 			function (error) {
 				document.getElementById("map").innerHTML =
-					`<p>${error.message}</p>`;
+					`<p>Ops, algo de errado não está certo. Por favor recarregue a página!</p>`;
 			}, {
 				enableHighAccuracy: true,
 				timeout: 60000,
